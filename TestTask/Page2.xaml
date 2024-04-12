@@ -1,0 +1,38 @@
+﻿<Page x:Class="TestTask.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TestTask"
+      Width="1920" Height="1080"
+      Title="Page2">
+
+    <Grid Background="Black">
+        <Image Margin="1131,96,164,792" Source="/img/page2/Frame 6.png" Stretch="Fill"/>
+        <TextBox x:Name="TextBox1" Margin="1131,386,164,630" Text="Фамилия, имя, очество" FontSize="30" Background="Black" BorderBrush="White" BorderThickness="0,0,0,1" Foreground ="Gray" MouseDoubleClick="TextBox_MouseDoubleClick_1"/>
+        <TextBox x:Name="TextBox2" Margin="1131,508,164,508" Text="Ваш телефон" FontSize="30" Background="Black" BorderBrush="White" BorderThickness="0,0,0,1" Foreground ="Gray" MouseDoubleClick="TextBox_MouseDoubleClick_2"/>
+        <TextBox x:Name="TextBox3" Margin="1131,642,164,386" Text="E-mail" FontSize="30" Background="Black" BorderBrush="White" BorderThickness="0,0,0,1" Foreground ="Gray" MouseDoubleClick="TextBox_MouseDoubleClick_3"/>
+        <TextBox Margin="1131,780,164,230" IsReadOnly="True" Text="Я даю согласие на обработку персональных данных и соглашаюсь с политикой конфиденциальности." FontSize="25" Background="Black"  Foreground ="Gray" TextWrapping="Wrap"/>
+        <Button Margin="1131,907,164,56" Content="Подтвердить данные" FontSize="35" Background="#FBB911"  Click="Page2_Click" />
+        <Frame x:Name="SeconFrame"/>
+        <Image Margin="-4,0,1176,0" Source="/img/page2/Group 7.png" Height="1070" VerticalAlignment="Top" Stretch="Fill" />
+        <Button Margin="466,954,1246,62"  FontSize="15" Content="Получить PDF-Файл" BorderThickness="2" BorderBrush="#FBB911" Foreground="#FBB911" Background="Black" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="3"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Margin="85,954,1627,62"  FontSize="15" Content="Получить PDF-Файл" BorderThickness="2" BorderBrush="#FBB911" Foreground="#FBB911" Background="Black" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="3"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Image Margin="449,38,1229,918" Source="/img/page2/12345677777 1.png" />
+        <Image Margin="85,26,1649,906" Source="/img/page2/Group 1.png" />
+        <Frame x:Name="SecFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+
+</Page>

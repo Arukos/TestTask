@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\page1\Frame 11.png" />
+    <None Remove="img\page1\Group 12.png" />
+    <None Remove="img\page1\Group 14.png" />
+    <None Remove="img\page1\Vector.png" />
+    <None Remove="img\page2\12345677777 1.png" />
+    <None Remove="img\page2\Frame 6.png" />
+    <None Remove="img\page2\Group 1.png" />
+    <None Remove="img\page2\Group 7.png" />
+    <None Remove="img\page3\Frame 6 %281%29.png" />
+    <None Remove="img\page3\Group 7.png" />
+    <None Remove="img\page4\12345677777 1.png" />
+    <None Remove="img\page4\Group 1.png" />
+    <None Remove="img\page4\Group 15.png" />
+    <None Remove="img\page4\Group 7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\page1\Frame 11.png" />
+    <Resource Include="img\page1\Group 12.png" />
+    <Resource Include="img\page1\Group 14.png" />
+    <Resource Include="img\page1\Vector.png" />
+    <Resource Include="img\page2\12345677777 1.png" />
+    <Resource Include="img\page2\Frame 6.png" />
+    <Resource Include="img\page2\Group 1.png" />
+    <Resource Include="img\page2\Group 7.png" />
+    <Resource Include="img\page3\Frame 6 (1).png" />
+    <Resource Include="img\page3\Group 7.png" />
+    <Resource Include="img\page4\12345677777 1.png" />
+    <Resource Include="img\page4\Group 1.png" />
+    <Resource Include="img\page4\Group 15.png" />
+    <Resource Include="img\page4\Group 7.png" />
+  </ItemGroup>
+
+</Project>

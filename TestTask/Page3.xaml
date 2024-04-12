@@ -1,0 +1,34 @@
+﻿<Page x:Class="TestTask.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TestTask"
+      Width="1920" Height="1080"
+      Title="Page3">
+
+    <Grid Background="Black">
+        <Image Margin="1237,0,0,0" Source="/img/page3/Group 7.png" Stretch="Fill"/>
+        <Button Margin="1296,978,416,38"  FontSize="15" Content="Получить PDF-Файл" BorderThickness="2" BorderBrush="#FBB911" Foreground="#FBB911" Background="Black" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="3"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Margin="1657,978,55,38"  FontSize="15" Content="Получить PDF-Файл" BorderThickness="2" BorderBrush="#FBB911" Foreground="#FBB911" Background="Black" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="3"></Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Image Margin="335,147,960,724" Source="/img/page3/Frame 6 (1).png" Stretch="Fill"/>
+        <Button Margin="335,773,960,190" Content="Подтвердить данные" FontSize="35" Background="#FBB911" Click="CheckData"/>
+        <Button Margin="486,917,1117,110" Content="Прислать код повторно" Foreground="Gray" BorderThickness="0,0,0,4"  FontSize="25" Background="Black" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox x:Name="box1" Foreground="White" FontSize="100" BorderThickness="1" Background="Black" Margin="508,494,1332,456"/>
+        <TextBox x:Name="box2" Foreground="White" FontSize="100" BorderThickness="1" Background="Black" Margin="707,494,1133,456"/>
+        <TextBox x:Name="box3" Foreground="White" FontSize="100" BorderThickness="1" Background="Black" Margin="608,494,1232,456"/>
+        <Frame x:Name="ThreFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Page>
